@@ -11,5 +11,5 @@ signal.signal(signal.SIGINT, handler_stop_signals)
 signal.signal(signal.SIGTERM, handler_stop_signals)
 
 while run:
-    print('Hello \n')
+    print('Hello, Hello \n')
     time.sleep(5)
